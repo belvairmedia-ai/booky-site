@@ -1,9 +1,9 @@
 {
   "company": {
-    "name": "Sterling & Partners",
-    "logo_initial": "S",
-    "logo_subtitle": "& Partners",
-    "city": "Amsterdam",
+    "name": "Booky",
+    "logo_initial": "B",
+    "logo_subtitle": "Boekhouder Rotterdam ambitieuze ondernemers",
+    "city": "Rotterdam",
     "address": "Gustav Mahlerlaan 1",
     "postcode": "1082 MS",
     "phone": "020 — 123 4567",
@@ -12,42 +12,78 @@
     "kvk": "12345678",
     "btw_id": "NL001234567B01",
     "whatsapp": "31201234567",
-    "description": "Boekhouders en belastingadviseurs voor ondernemers in Nederland. Persoonlijk, betrouwbaar en altijd bereikbaar."
+    "description": "Wij helpen zzp'ers, freelancers en mkb-bedrijven die zoeken naar een boekhouder in Rotterdam. Wij pakken de boekhouding en het verwerken van de financiële administratie op, zodat jij je weer bezig kunt houden met het leuke gedeelte van ondernemen."
   },
   "hero": {
     "label": "Boekhouders & Adviseurs — Amsterdam",
-    "headline_before": "Uw boekhouding",
+    "headline_before": "Booky dé boekhouder in Rotterdam voor ambitieuze ondernemers",
     "headline_after": "geregeld. U focust op",
-    "emphasis": "ondernemen",
-    "subheadline": "Van BTW-aangifte tot jaarrekening — wij nemen de volledige administratie uit handen zodat u zich kunt richten op wat u het beste doet. Vaste boekhouder, geen verrassingen.",
-    "cta_primary": "Plan uw gratis gesprek",
+    "emphasis": "Booky",
+    "subheadline": "Wij helpen zzp'ers, freelancers en mkb-bedrijven met boekhouding en financiële administratie.",
+    "cta_primary": "Neem contact op",
     "cta_secondary": "Bekijk wat wij doen",
-    "image": "https://images.letz.ai/dd5c4d93-aedf-481a-a670-f2d5c5917602/f167adf5-9cd8-43f6-aaec-3e5c8a50f6f5/letz_Professional_photorealistic_image_of_a_Dutch_femal20260215180842.jpg",
+    "image": "https://www.booky.nl/wp-content/uploads/2025/06/home.svg",
     "image_alt": "Nederlandse boekhouder en ondernemer in gesprek in een modern Amsterdams kantoor met uitzicht op de grachten",
     "floating_card_label": "Gem. belastingbesparing",
     "floating_card_value": "€18.400",
     "badges": [
-      { "value": "15+", "label": "Jaar ervaring" },
-      { "value": "1.200+", "label": "Klanten geholpen" },
-      { "value": "98%", "label": "Klanttevredenheid" }
+      {
+        "value": "15+",
+        "label": "Jaar ervaring"
+      },
+      {
+        "value": "1.200+",
+        "label": "Klanten geholpen"
+      },
+      {
+        "value": "98%",
+        "label": "Klanttevredenheid"
+      }
     ]
   },
   "trust": {
     "label": "Erkend door",
-    "google_score": "4.9",
+    "google_score": "9.5",
     "google_count": "127",
-    "certifications": ["NOAB", "SRA", "NBA", "RB"],
-    "software": ["Exact Online", "Twinfield"]
+    "certifications": [],
+    "software": [
+      "Exact Online",
+      "Twinfield"
+    ]
   },
   "clients": [
-    { "name": "Kuipers Bouw", "style": "font-serif text-[17px] italic tracking-tight" },
-    { "name": "AMSTERDAM DENTAL", "style": "text-[11px] font-bold uppercase tracking-[0.25em]" },
-    { "name": "de Groot", "style": "font-serif text-[19px] font-normal italic" },
-    { "name": "TECHFLOW", "style": "text-[13px] font-black uppercase tracking-[0.15em]" },
-    { "name": "Café de Jordaan", "style": "font-serif text-[16px] italic" },
-    { "name": "VAN LEEUWEN", "style": "text-[12px] font-bold uppercase tracking-[0.2em]" },
-    { "name": "bloom", "style": "text-[18px] font-light lowercase tracking-wider" },
-    { "name": "WAVES", "style": "text-[14px] font-black uppercase tracking-[0.3em]" }
+    {
+      "name": "ZZP'ers",
+      "style": "font-serif text-[17px] italic tracking-tight"
+    },
+    {
+      "name": "Freelancers",
+      "style": "text-[11px] font-bold uppercase tracking-[0.25em]"
+    },
+    {
+      "name": "MKB-bedrijven",
+      "style": "font-serif text-[19px] font-normal italic"
+    },
+    {
+      "name": "Bouwbedrijven",
+      "style": "text-[13px] font-black uppercase tracking-[0.15em]"
+    },
+    {
+      "name": "Webshops",
+      "style": "font-serif text-[16px] italic"
+    },
+    {
+      "name": "Horecabedrijven",
+      "style": "text-[12px] font-bold uppercase tracking-[0.2em]"
+    },
+    {
+      "name": "Transportbedrijven",
+      "style": "text-[18px] font-light lowercase tracking-wider"
+    },
+    {
+      "name": "Zorgorganisaties",
+      "style": "text-[14px] font-black uppercase tracking-[0.3em]"
+    }
   ],
   "services": {
     "label": "Onze Diensten",
@@ -55,40 +91,102 @@
     "headline_emphasis": "minder",
     "description": "Elke dienst die u nodig heeft om fiscaal zorgeloos te ondernemen. Van startende ZZP'er tot gevestigde BV — onder persoonlijke begeleiding van uw vaste boekhouder.",
     "items": [
-      { "title": "Boekhouding & Jaarrekening", "description": "Uw boeken zijn altijd op orde. Wij verwerken alles — van bonnetjes tot jaarrekening — zodat u nooit meer achter de feiten aanloopt." },
-      { "title": "BTW-aangifte & IB/VPB", "description": "Nooit meer een deadline missen. Wij dienen uw BTW, IB en VPB op tijd in en zorgen dat u geen euro te veel betaalt." },
-      { "title": "Salarisadministratie", "description": "Salarissen op tijd, altijd correct. Loonstroken, jaaropgaven en alle meldingen aan de Belastingdienst en het UWV — wij regelen het." },
-      { "title": "Fiscaal Advies & DGA", "description": "Betaal alleen wat u verschuldigd bent. Wij adviseren over de optimale salaris-dividendverhouding, pensioenopbouw en de 30%-regeling." },
-      { "title": "BV Oprichting & Structuur", "description": "Klaar voor een BV? Wij regelen alles: holdingstructuur, notaris, KvK en de fiscale overstap. U tekent alleen." },
-      { "title": "ZZP Boekhouding", "description": "Ondernemen zonder administratie-stress. Urenregistratie, aftrekposten en kwartaalaangiftes — wij houden het bij zodat u kunt focussen." }
+      {
+        "title": "Administratie",
+        "description": "Volledige boekhouding en financiële administratie verzorging voor ondernemers."
+      },
+      {
+        "title": "Jaarrekening",
+        "description": "Professionele jaarrekening opstelling en financiële rapportage."
+      },
+      {
+        "title": "Advies",
+        "description": "Financieel advies en ondersteuning voor groeiende ondernemingen."
+      },
+      {
+        "title": "Belastingen",
+        "description": "Belastingaangifte en belastingplanning voor ondernemers."
+      },
+      {
+        "title": "Loonadministratie",
+        "description": "Uitbesteding van salarisadministratie en personeelsadministratie."
+      },
+      {
+        "title": "Prognose ondernemersinkomen",
+        "description": "Inkomstenprognosticering en financiële planning voor ondernemers."
+      }
     ]
   },
   "industries": [
-    { "name": "ZZP & Freelancers", "desc": "Urenregistratie, aftrekposten & kwartaalaangifte" },
-    { "name": "Horeca & Retail", "desc": "Kassa-integratie, voorraad & BTW" },
-    { "name": "E-commerce", "desc": "Webshop boekhouding, EU BTW & OSS-regeling" },
-    { "name": "Bouw & Vastgoed", "desc": "Projectadministratie, WKR & ketenregeling" },
-    { "name": "Zorg & Welzijn", "desc": "Zorgtoeslag, WMO-administratie & subsidies" },
-    { "name": "IT & Tech Startups", "desc": "WBSO, innovatiebox & investeerdersrapportages" }
+    {
+      "name": "Bouw",
+      "desc": "Gespecialiseerde boekhouding voor bouwbedrijven en aannemers."
+    },
+    {
+      "name": "E-commerce",
+      "desc": "Boekhouding voor webshops en online verkopers."
+    },
+    {
+      "name": "Horeca",
+      "desc": "Administratie voor restaurants, cafés en horecabedrijven."
+    },
+    {
+      "name": "Transport",
+      "desc": "Boekhouding voor transport- en logistiekbedrijven."
+    },
+    {
+      "name": "Zorg",
+      "desc": "Financiële administratie voor zorgorganisaties."
+    },
+    {
+      "name": "ZZP'ers",
+      "desc": "Boekhouding en administratie voor zelfstandigen zonder personeel."
+    }
   ],
   "about": {
     "label": "Waarom Sterling",
-    "headline": "Eén vast aanspreekpunt.\nGeen verrassingen. Altijd bereikbaar.",
-    "paragraph": "Andere kantoren geven u een junior die elk kwartaal wisselt. Bij Sterling werkt u met één vaste boekhouder die uw bedrijf door en door kent. NOAB-gecertificeerd en bereikbaar wanneer het ertoe doet.",
-    "image": "https://images.letz.ai/dd5c4d93-aedf-481a-a670-f2d5c5917602/c37566ec-08f2-4ff1-a34b-3e5a600f4311/letz_Professional_photorealistic_interior_of_a_modern_b20260215180850.jpg",
+    "headline": "Dit is wat Booky doet voor ondernemers",
+    "paragraph": "Wij helpen zzp'ers, freelancers en mkb-bedrijven die zoeken naar een boekhouder in Rotterdam. Wij pakken de boekhouding en het verwerken van de financiële administratie op, zodat jij je weer bezig kunt houden met het leuke gedeelte van ondernemen.",
+    "image": "https://www.booky.nl/wp-content/uploads/2025/06/home.svg",
     "image_alt": "Modern interieur van een boutique boekhoudkantoor in Amsterdam met glazen wanden en groene planten",
     "years_experience": "15",
     "pillars": [
-      { "title": "Persoonlijke Begeleiding", "text": "Elke klant heeft een vaste boekhouder die uw bedrijf door en door kent — geen callcenter, geen wisselende contactpersonen." },
-      { "title": "Fiscale Expertise", "text": "Diepgaande kennis van Nederlandse fiscale wetgeving, BTW-regels, loonheffingen en de nieuwste Belastingdienst-richtlijnen." },
-      { "title": "Real-time Inzicht", "text": "Volledig digitale workflow met Exact Online, Twinfield en Yuki. Bekijk uw cijfers wanneer u wilt via uw eigen dashboard." }
+      {
+        "title": "Vast tarief",
+        "text": "Een vaste abonnementsprijs, zodat je weet waar je aan toe bent."
+      },
+      {
+        "title": "Online software",
+        "text": "Moderne online boekhoudsoftware met een mobiele app."
+      },
+      {
+        "title": "Bereikbaar",
+        "text": "Altijd dichtbij en bereikbaar, zowel online als offline."
+      }
     ]
   },
   "stats": [
-    { "value": 1200, "suffix": "+", "label": "Klanten Geholpen" },
-    { "value": 45, "suffix": "M", "label": "Omzet Beheerd", "prefix": "€" },
-    { "value": 98, "suffix": "%", "label": "Klanttevredenheid" },
-    { "value": 15, "suffix": "+", "label": "Jaar Ervaring" }
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Google beoordeling"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Tevreden klanten",
+      "prefix": "€"
+    },
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Jaar ervaring"
+    },
+    {
+      "value": 24,
+      "suffix": "/7",
+      "label": "Ondersteuning"
+    }
   ],
   "case_study": {
     "before_label": "Vóór Sterling",
@@ -168,18 +266,50 @@
     "headline_before": "In vier stappen",
     "headline_emphasis": "van start",
     "steps": [
-      { "step": "01", "title": "Gratis Kennismaking", "description": "30 minuten, geen verplichtingen. Wij luisteren naar uw situatie en vertellen eerlijk wat wij voor u kunnen betekenen." },
-      { "step": "02", "title": "Financiële Scan", "description": "Wij duiken in uw administratie en laten u zien waar u geld laat liggen. De meeste ondernemers besparen direct." },
-      { "step": "03", "title": "Op Maat Voorstel", "description": "Vaste prijs per maand, zwart op wit. Geen kleine lettertjes, geen verborgen kosten." },
-      { "step": "04", "title": "Doorlopende Samenwerking", "description": "Wij denken proactief mee. Kwartaalrapportages, fiscale updates en advies dat meegroeit met uw bedrijf." }
+      {
+        "step": "01",
+        "title": "Kennismaking",
+        "description": "Eerste contact en intake gesprek met Booky."
+      },
+      {
+        "step": "02",
+        "title": "Offerte",
+        "description": "Persoonlijke offerte op basis van jouw situatie."
+      },
+      {
+        "step": "03",
+        "title": "Overdracht",
+        "description": "Overdracht van je administratie naar Booky."
+      },
+      {
+        "step": "04",
+        "title": "Samenwerking",
+        "description": "Structurele samenwerking met vaste contactpersoon."
+      }
     ]
   },
   "calculator": {
     "business_types": [
-      { "id": "zzp", "label": "ZZP / Eenmanszaak", "base": 89 },
-      { "id": "vof", "label": "VOF", "base": 129 },
-      { "id": "bv", "label": "BV (single)", "base": 199 },
-      { "id": "bv-holding", "label": "BV + Holding", "base": 349 }
+      {
+        "id": "zzp",
+        "label": "Eenmanszaak",
+        "base": 75
+      },
+      {
+        "id": "vof",
+        "label": "ZZP'er",
+        "base": 75
+      },
+      {
+        "id": "bv",
+        "label": "Kleine BV",
+        "base": 125
+      },
+      {
+        "id": "bv-holding",
+        "label": "MKB-bedrijf",
+        "base": 200
+      }
     ]
   },
   "pricing": {
@@ -189,67 +319,118 @@
     "description": "Geen verrassingen. Alle prijzen zijn exclusief BTW. Overstappen kan altijd — wij regelen de overdracht.",
     "plans": [
       {
-        "name": "ZZP Basis",
-        "price": "€99",
+        "name": "Starter",
+        "price": "€75",
         "period": "/maand",
-        "description": "Alles wat u nodig heeft als ZZP'er — zonder poespas",
-        "features": ["Boekhouding & BTW-aangifte", "Inkomstenbelasting (IB)", "Urenregistratie controle", "Zelfstandigenaftrek berekening", "Exact Online of Yuki", "Telefonisch & email support"],
+        "description": "Voor startende ondernemers en zzp'ers.",
+        "features": [
+          "Basisboekhouding",
+          "Maandelijkse rapportage",
+          "Online software",
+          "Email support",
+          "Maandelijks opzegbaar",
+          "Vaste contactpersoon"
+        ],
         "highlight": false
       },
       {
-        "name": "MKB Groei",
-        "price": "€299",
+        "name": "Basis",
+        "price": "€125",
         "period": "/maand",
-        "description": "Voor ondernemers die klaar zijn voor de volgende stap",
-        "features": ["Alles uit ZZP Basis", "Jaarrekening & publicatie", "Vennootschapsbelasting (VPB)", "Salarisadministratie (t/m 5 pers.)", "Kwartaalrapportages", "Vaste boekhouder", "Fiscaal advies op maat"],
+        "description": "Voor groeiende mkb-bedrijven.",
+        "features": [
+          "Volledige boekhouding",
+          "Jaarrekening",
+          "Belastingaangifte",
+          "Telefonische support",
+          "Maandelijks opzegbaar",
+          "Vaste contactpersoon",
+          "Advies"
+        ],
         "highlight": true
       },
       {
-        "name": "Onderneming Plus",
-        "price": "Op maat",
+        "name": "Premium",
+        "price": "€200",
         "period": "",
-        "description": "Maatwerkpakket voor bedrijven die meer vragen dan standaard",
-        "features": ["Alles uit MKB Groei", "Onbeperkt salarisadministratie", "Holding- & BV-structuren", "DGA-advisering", "Maandelijkse rapportages", "Dedicated accountmanager", "Jaarrekeningcontrole", "Priority support"],
+        "description": "Voor grotere bedrijven met complexe administratie.",
+        "features": [
+          "Volledige boekhouding",
+          "Jaarrekening",
+          "Belastingaangifte",
+          "Loonadministratie",
+          "Prioritaire support",
+          "Vaste contactpersoon",
+          "Strategisch advies",
+          "Maandelijks opzegbaar"
+        ],
         "highlight": false
       }
     ]
   },
-  "integrations": ["Exact Online", "Twinfield", "Yuki", "Visma", "Xero", "Mollie", "Stripe", "Snelstart"],
+  "integrations": [
+    "Online boekhoudsoftware",
+    "Mobiele app",
+    "Bankintegratie",
+    "Facturatiesoftware",
+    "Inkoopfacturenverwerking",
+    "Salarissoftware",
+    "Belastingsoftware",
+    "Rapportagetools"
+  ],
   "blog": {
     "label": "Blog & Inzichten",
     "headline_before": "Praktische tips voor",
     "headline_emphasis": "ondernemers",
     "posts": [
       {
-        "category": "Belastingtips",
-        "title": "ZZP'er worden in 2026: de financiële checklist",
-        "description": "Van KvK-inschrijving tot BTW-aangifte — alles wat u moet regelen als startende zelfstandige.",
+        "category": "Algemeen",
+        "title": "Wanneer ben je ondernemer voor de inkomstenbelasting?",
+        "description": "Informatie over wanneer je officieel ondernemer bent en wat dat betekent voor belastingen.",
         "image": "https://images.letz.ai/dd5c4d93-aedf-481a-a670-f2d5c5917602/8ad828d1-ca1b-4e41-a6aa-cb351540ed24/letz_Flat_lay_overhead_photo_of_a_Dutch_ZZP_freelancer_20260215180918.jpg",
-        "date": "12 feb 2026"
+        "date": "17 jan 2026"
       },
       {
-        "category": "Fiscaal Advies",
-        "title": "BV of eenmanszaak: wanneer is de overstap slim?",
-        "description": "De voor- en nadelen van een BV-structuur en wanneer het fiscaal interessant wordt om over te stappen.",
+        "category": "BV",
+        "title": "Bij welke winst is een BV voordeliger dan een eenmanszaak?",
+        "description": "Analyse van wanneer het voordelig is om over te stappen naar een BV.",
         "image": "https://images.letz.ai/dd5c4d93-aedf-481a-a670-f2d5c5917602/8e47fca2-5437-4f5a-824d-aa66f67e8232/letz_Professional_photorealistic_image_of_a_modern_glas20260215180916.jpg",
-        "date": "5 feb 2026"
+        "date": "17 jan 2026"
       },
       {
-        "category": "BTW",
-        "title": "BTW-aangifte: de 7 meest gemaakte fouten",
-        "description": "Voorkom boetes en naheffingen. Ontdek welke BTW-fouten ondernemers het vaakst maken en hoe u ze voorkomt.",
+        "category": "BV",
+        "title": "5 redenen om over te stappen naar een BV",
+        "description": "Praktische redenen en voordelen van het opzetten van een BV.",
         "image": "https://images.letz.ai/dd5c4d93-aedf-481a-a670-f2d5c5917602/0839f5fa-29a4-46f1-b7d1-0d3bdd644b48/letz_Closeup_photorealistic_image_of_hands_typing_on_la20260215180935.jpg",
-        "date": "28 jan 2026"
+        "date": "10 jan 2026"
       }
     ]
   },
   "faqs": [
-    { "question": "Voor welk type ondernemer werken jullie?", "answer": "Wij werken met ZZP'ers, freelancers, MKB-bedrijven en BV's. Of u nu net begint als eenmanszaak of een gevestigd bedrijf heeft met 50+ medewerkers — ons dienstenpakket schaalt mee met uw behoeften." },
-    { "question": "Hoe verschilt Sterling van een standaard boekhoudkantoor?", "answer": "Elke klant werkt met een vaste, ervaren boekhouder — niet met wisselende juniors. Wij combineren persoonlijke aandacht met moderne software en proactief fiscaal advies. Wij zijn NOAB-gecertificeerd, wat staat voor kwaliteit en continue bijscholing." },
-    { "question": "Wat houdt het gratis kennismakingsgesprek in?", "answer": "Een vrijblijvend gesprek van 30 minuten met een senior boekhouder. Wij bespreken uw huidige situatie, identificeren bespaarkansen en geven een eerste indicatie van de kosten. Geen verplichtingen." },
-    { "question": "Kan ik de 30%-regeling voor expats via jullie regelen?", "answer": "Jazeker. Wij begeleiden het volledige 30%-regelingtraject: van de eerste aanvraag bij de Belastingdienst tot de jaarlijkse aangifte. Onze adviseurs zijn ervaren met internationale werknemers en kennen de voorwaarden en valkuilen." },
-    { "question": "Wanneer is een BV voordeliger dan een eenmanszaak?", "answer": "Over het algemeen wordt een BV-structuur fiscaal interessant bij een winst vanaf circa €100.000 per jaar. Maar het hangt af van uw persoonlijke situatie, risicoprofiel en toekomstplannen. Wij maken graag een persoonlijke berekening voor u." },
-    { "question": "Hoe werkt de overstap van een andere boekhouder?", "answer": "Heel eenvoudig. Wij regelen de volledige overdracht: opvragen van administratie bij uw vorige boekhouder, inrichten van de software, en naadloos overnemen. De meeste klanten merken niets van de transitie." }
+    {
+      "question": "Wat zijn de kosten van Booky?",
+      "answer": "Booky werkt met vaste abonnementsprijzen. De kosten variëren afhankelijk van je bedrijfstype en administratieve complexiteit. Neem contact op voor een persoonlijke offerte."
+    },
+    {
+      "question": "Hoe werkt de samenwerking met Booky?",
+      "answer": "Na kennismaking en offerte verzorg je de overdracht van je administratie. Je krijgt een vaste contactpersoon en Booky verzorgt je volledige boekhouding."
+    },
+    {
+      "question": "Welke software gebruikt Booky?",
+      "answer": "Booky gebruikt moderne online boekhoudsoftware met mobiele app. Dit geeft je inzicht in je financiën en maakt samenwerking efficiënt."
+    },
+    {
+      "question": "Kan ik maandelijks opzeggen?",
+      "answer": "Ja, alle abonnementen van Booky zijn maandelijks opzegbaar. Er zijn geen langdurige contracten of kleine lettertjes."
+    },
+    {
+      "question": "Hoe bereik ik Booky?",
+      "answer": "Je kunt Booky bereiken via telefoon, email en online. Booky is altijd dichtbij en bereikbaar, zowel online als offline."
+    },
+    {
+      "question": "Voor welke bedrijven is Booky geschikt?",
+      "answer": "Booky helpt zzp'ers, freelancers en mkb-bedrijven. Wij hebben specialisatie in sectoren zoals bouw, e-commerce, horeca, transport en zorg."
+    }
   ],
   "cta": {
     "label": "Laten We Kennismaken",
@@ -257,14 +438,39 @@
     "description": "Bel ons, mail ons, of plan direct een gesprek van 30 minuten. Geen verplichtingen — alleen een eerlijk advies over wat wij voor u kunnen betekenen."
   },
   "footer": {
-    "diensten": ["Boekhouding", "BTW-aangifte", "Salarisadministratie", "Fiscaal Advies", "BV Oprichting", "ZZP Boekhouding"],
+    "diensten": [
+      "Boekhouding",
+      "BTW-aangifte",
+      "Salarisadministratie",
+      "Fiscaal Advies",
+      "BV Oprichting",
+      "ZZP Boekhouding"
+    ],
     "bedrijf": [
-      { "label": "Over Ons", "href": "#over-ons" },
-      { "label": "Ons Team", "href": "#team" },
-      { "label": "Tarieven", "href": "#tarieven" },
-      { "label": "Blog", "href": "#" },
-      { "label": "Vacatures", "href": "#" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Over Ons",
+        "href": "#over-ons"
+      },
+      {
+        "label": "Ons Team",
+        "href": "#team"
+      },
+      {
+        "label": "Tarieven",
+        "href": "#tarieven"
+      },
+      {
+        "label": "Blog",
+        "href": "#"
+      },
+      {
+        "label": "Vacatures",
+        "href": "#"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "sticky_cta": {
@@ -273,7 +479,12 @@
     "button": "Plan nu"
   },
   "nav": {
-    "items": ["Diensten", "Over Ons", "Team", "Tarieven"],
+    "items": [
+      "Diensten",
+      "Over Ons",
+      "Team",
+      "Tarieven"
+    ],
     "cta": "Gratis Adviesgesprek"
   },
   "client_logos": {
@@ -287,10 +498,31 @@
       "title": "Welk pakket heeft uw interesse?",
       "subtitle": "U kunt dit later nog wijzigen.",
       "packages": [
-        { "id": "zzp-basis", "name": "ZZP Basis", "price": "€99/maand", "desc": "Boekhouding & BTW voor ZZP'ers" },
-        { "id": "mkb-groei", "name": "MKB Groei", "price": "€299/maand", "desc": "Compleet pakket met fiscaal advies", "popular": true },
-        { "id": "onderneming-plus", "name": "Onderneming Plus", "price": "Op maat", "desc": "Maatwerk voor grotere bedrijven" },
-        { "id": "weet-niet", "name": "Weet ik nog niet", "price": "", "desc": "Bespreek opties tijdens het gesprek" }
+        {
+          "id": "zzp-basis",
+          "name": "ZZP Basis",
+          "price": "€99/maand",
+          "desc": "Boekhouding & BTW voor ZZP'ers"
+        },
+        {
+          "id": "mkb-groei",
+          "name": "MKB Groei",
+          "price": "€299/maand",
+          "desc": "Compleet pakket met fiscaal advies",
+          "popular": true
+        },
+        {
+          "id": "onderneming-plus",
+          "name": "Onderneming Plus",
+          "price": "Op maat",
+          "desc": "Maatwerk voor grotere bedrijven"
+        },
+        {
+          "id": "weet-niet",
+          "name": "Weet ik nog niet",
+          "price": "",
+          "desc": "Bespreek opties tijdens het gesprek"
+        }
       ],
       "button": "Kies datum & tijd"
     },
